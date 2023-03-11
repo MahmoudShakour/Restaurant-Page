@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-image: url(./images/bg.png);
+}
+
+body * {
+    opacity: 0.9;
+}
+.content{
+    flex: 1;
+}
+
+.header{
+    display: grid;
+    place-content: center;
+    padding: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+}
+
+.footer{
+    display: grid;
+    place-content: center;
+    padding: 30px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+}
+
+.buttons{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+    background-color: black;
+}
+
+button{
+    border: none;
+    background: none;
+    padding: 0;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+button:hover{
+    text-decoration: blue;
+}
+
+.content{
+    display: grid;
+    place-content: center;
+}
+
+.home-card{
+    padding: 50px 100px 50px 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: black;
+    opacity: 100%;
+}
+
+.card-paragraph,
+.contact-paragraph{
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.card-photo{
+    border-radius: 50%;
+    opacity: 100%;
+}
+
+.contact-card{
+    padding: 50px 100px 50px 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: black;
+    opacity: 100%;
+}
+
+.contact-container{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.icon{
+    height: 40px;
+    background: none;
+    color: blue;
+}
