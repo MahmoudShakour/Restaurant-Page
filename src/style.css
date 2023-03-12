@@ -3,14 +3,11 @@
     margin: 0;
 }
 
-html{
-    height: 100%;
-}
+
 
 body{
     display: flex;
     flex-direction: column;
-    height: 100%;
     background-image: url(./images/bg.png);
 }
 
@@ -59,7 +56,7 @@ button{
 }
 
 button:hover{
-    text-decoration: blue;
+    color: blue;
 }
 
 .content{
@@ -69,6 +66,7 @@ button:hover{
 
 .home-card{
     padding: 50px 100px 50px 100px;
+    margin: 100px;
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -90,6 +88,7 @@ button:hover{
 
 .contact-card{
     padding: 50px 100px 50px 100px;
+    margin: 250px 0px 350px 0px;
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -107,4 +106,50 @@ button:hover{
     height: 40px;
     background: none;
     color: blue;
+}
+
+.menu-container{
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    gap: 20px;
+    color: white;
+    padding: 50px 100px 50px 100px;
+    margin: 100px 0px 150px 0px;
+    width: 600px;
+    background-color: black;
+}
+
+.menu-title{
+    color: white;
+    font-size: 30px;
+    font-weight: 800;
+    display: grid;
+    place-content: center;
+}
+
+.menu-meals-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+}
+
+.menu-meal{
+    border: 1px solid black;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.menu-meal-title{
+    display: grid;
+    place-content: center;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.menu-meal-description{
+    font-size: 20px;
+    font-weight: 600;
 }
